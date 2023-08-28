@@ -1,0 +1,148 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+
+body{
+width: 100%;
+background-image: url(coffee1.jpg);
+background-position:center;
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:109vh;
+}
+
+
+#navbar{
+width:1200px;
+float:left;
+height:70px;
+}
+#navbara{
+width:1200px;
+float:left;
+height:70px;
+float: flex;
+justify-content: space-between;
+}
+
+.logo{
+  color:#b17e55;
+  font-size:35px;
+  font-family:century gothic;
+  padding-left:20px;
+  font-weight: bold;
+}
+
+.menu{
+  width:400px;
+  float:left;
+  height:70px;
+font-weight: bold;
+
+}
+ul{
+  float:left;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+ul li{
+     list-style:none;
+     margin-left:62px;
+     margin-top:27px;
+     font-size:14px;
+}
+ul li a{
+    text-decoration:none;
+    color:#fff;
+      font-family:century gothic;
+      font-weight:bold;
+    transition:0.4 ease-in-out;
+}
+ul li a:hover{
+  color:rgb(88, 55, 33);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  color:white;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  color:white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: indi;
+  color:white;
+  border-radius: 30px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+color:white;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  color:white;
+}
+
+.title {
+  color: rgb(107, 71, 50);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:  #38240c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+ .mainu{
+  width:100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+ background-position: center;
+  background-size:cover;
+  height:109vh;
+}
